@@ -1,0 +1,30 @@
+chapter2_exercise.html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>サイト名</title>
+    <link rel="stylesheet" href="chapter2_exercise.css">
+</head>
+<body>
+	<h1>サービス紹介</h1>
+	<h2>webcamp</h2>
+	<h6>マンツーマンサポートによる学習で、確実にwebスキルを習得できるプログラミングスクールです。</h6>
+	<a href="https://web-camp.io/">webサイト</a>
+	<h2>webcamp pro</h2>
+	<h6>未経験から転職を保証する日本で唯一のプログラミングスクールです。</h6>
+	<a href="https://web-camp.io/pro/">webサイト</a>
+	<h2>webcamp women</h2>
+	<h6>家庭も仕事も頑張りたい主婦・ママ向けの、1か月でwebサイトを制作するwebデザインスクールです。</h6>
+    <a href="https://web-camp.io/pro/">webサイト</a>
+	<h2>webcamp carrer</h2>
+	<h6>3000名のエンジニアをサポートしてきたエージェントがあなたの転職をサポート。</h6>
+	<a href="https://web-camp.io/pro/">webサイト</a>
+</body>
+
+
+chapter2_exercise.css
+
+h1{
+    color: orange;
+}
