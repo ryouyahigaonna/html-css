@@ -1,0 +1,130 @@
+chapter8
+
+html
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+    <link rel="stylesheet" href="chapter8_exercise.css">
+
+	<title>practice</title>
+</head>
+<body>
+	<div class="main">
+	  <div class="list">
+        <div class="list1">
+          <p>リスト１</p>
+        </div>
+        <div class="list2">
+          <p>リスト２</p>
+        </div>
+        <div class="list1">
+          <p>リスト３</p>
+        </div>
+        <div class="list2">
+          <p>リスト４</p>
+        </div>
+        <div class="list1">
+          <p>リスト５</p>
+        </div>
+        <div class="list2">
+            <p>リスト６</p>
+         </div>
+        <div class="list1">
+          <p>リスト７</p>
+        </div>
+      </div>
+    	<div class="main-bottom clearfix">
+    		<div class="orange"></div>
+      		<div class="white"></div>
+      		<div class="yellow"></div>
+     		<div class="white"></div>
+     		<div class="yellow"></div>
+      		<div class="white2"></div>
+      		<div class="yellow"></div>
+      		<div class="white"></div>
+      		<div class="orange"></div>
+      		<div class="white"></div>
+      		<div class="yellow"></div>
+      		<div class="white2"></div>
+      		<div class="yellow"></div>
+      		<div class="white"></div>
+      		<div class="yellow"></div>
+      		<div class="white"></div>
+      		<div class="orange"></div>
+      		<div class="space2"></div>
+    	</div>
+	</div>
+</body>
+
+css
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+a {
+  text-decoration: none;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.main{
+	width: 960px;
+    margin: 0 auto;
+}
+
+.list1{
+	background-color: rgba(128,128,128,0.500);
+	width: 100%;
+	height: 60px;
+	padding: 20px;
+}
+.list2{
+	width: 100%;
+	height:60px;
+	padding: 20px;
+}
+
+.list{
+	width: 100%;
+	margin:50px 0;
+}
+.main-bottom{
+	width: 100%;
+}
+.orange{
+	width:30%;
+	height: 200px;
+	background-color: orange;
+	float: left;
+}
+.yellow{
+	width:30%;
+	height: 200px;
+	
+	background-color: yellow;
+	float: left;
+}
+.white{
+	width: 5%;
+	height: 200px;
+	float: left;
+}
+.white2{
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+.space2{
+	width: 100%;
+	height: 50px;
+	float: left;
+	background-color: white;
+}
