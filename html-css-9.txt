@@ -1,0 +1,154 @@
+chapter9_exercise
+
+html
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="chapter9_exercise.css">
+  <title>practice</title>
+</head>
+<body>
+  <div class="main-visual">
+  	<div class="space"></div>
+  	<div class="main-block clearfix">
+  	  <div class="main-block1">
+       <div class="tag1">
+       <p>step1</p>
+      </div>
+  	   <div class="block1picture"></div>
+       <h3>タイトルが入ります</h3>
+       <p>文章が入ります。文章が入ります。文<br>
+          章が入ります。文章が入ります。文章<br>
+          が入ります。文章が入ります。文章が<br>
+          入ります。文章が入ります。文書が入<br>
+          ります。
+        </p>
+      </div>
+  	  <div class="main-block2">
+       <div class="tag2">
+       <p>step2</p>
+       </div>
+  	   <div class="block2picture"></div>
+       <h3>タイトルが入ります</h3>
+       <p>文章が入ります。文章が入ります。文<br>
+          章が入ります。文章が入ります。文章<br>
+          が入ります。文章が入ります。文章が<br>
+          入ります。文章が入ります。文書が入<br>
+          ります。
+        </p>
+      </div>
+  	  <div class="main-block3">
+        <div class="tag3">
+        <p>step3</p>
+        </div>
+  	    <div class="block3picture"></div>
+        <h3>タイトルが入ります</h3>
+        <p>文章が入ります。文章が入ります。文<br>
+          章が入ります。文章が入ります。文章<br>
+          が入ります。文章が入ります。文章が<br>
+          入ります。文章が入ります。文書が入<br>
+          ります。
+        </p>
+        </div>
+      </div>
+      <div class="space"></div>
+  </div>
+</body>
+</html>
+
+css
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.main-visual {
+	width:960px;
+	margin: 0 auto;
+	height: 470px;
+	
+}
+.space {
+  width: 960px;
+  height: 50px;
+  
+}
+.main-block{
+	width: 960px;
+	margin: 0 auto;
+	
+}
+
+.main-block1 {
+	width: 300px;
+	height: 370px;
+	float: left;
+	background-size:;
+	border: 1px solid;
+
+}
+.block1picture {
+  background-image: url(img/flow01.png);
+  width: 280px;
+  height: 200px;
+  background-size: cover;
+  margin: 10px;
+
+}
+.main-block2 {
+	width: 290px;
+	height: 370px;
+	margin: 0 30px;
+	float: left;
+	border: 1px solid;
+}
+.block2picture {
+  background-image: url(img/flow02.png);
+  width: 280px;
+  height: 200px;
+  background-size: cover;
+  margin: 10px 10px;
+}
+.main-block3 {
+	width: 290px;
+	height: 370px;
+	margin: 0 auto;
+	float: left;
+	border: 1px solid;
+}
+.block3picture {
+  background-image: url(img/flow03.png);
+  width: 280px;
+  height: 200px;
+  background-size: cover;
+  margin: 10px;
+}
+.tag1{
+	position: absolute;
+	width:50px;
+	height:27px;
+	background-color: orange;
+	color: white;
+}
+.tag2{
+	position: absolute;
+	width:50px;
+	height:27px;
+	background-color: orange;
+	color: white;
+}
+.tag3{
+	position: absolute;
+	width:50px;
+	height:27px;
+	background-color: orange;
+	color: white;
+}
