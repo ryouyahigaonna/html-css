@@ -1,0 +1,180 @@
+chapter5_exercise
+
+html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!-- CSSファイルの読み込み -->
+  <link rel="stylesheet" href="chapter5_exercise.css">
+  <title>CARAVAN</title>
+</head>
+<body>
+   <!-- header -->
+  <header>
+  	<h1 class="headline">
+  	  <a href="https://infratop.jp/">infratop</a>
+  	</h1>
+  </header>
+  <nav>
+    <ul class="nav-list">
+      <li class="nav-list-item">
+        <a href="https://web-camp.io/">webcamp</a>
+      </li>
+      <li class="nav-list-item">
+        <a href="https://web-camp.io/pro/">webcamp pro</a>
+      </li>
+      <li class="nav-list-item">
+      	<a href="https://web-camp.io/woman/">webcamp women</a>
+      </li>
+      <li class="nav-list-item">
+      	<a href="https://web-camp.io/career/">webcamp carrer
+      	</a>
+      </li>
+
+    </ul>
+  </nav>
+   <!-- main-visual用のdiv -->
+  <div class="main-visual">
+    <div class="main-visual-content"></div>
+  </div>
+  <!-- main用のdiv -->
+  <div class="main clearfix">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+    <div class="box6"></div>
+    <div class="box7"></div>
+    <div class="box8"></div>
+    <div class="box9"></div>
+    <div class="box10"></div>
+    <div class="box11"></div>
+    <div class="box12"></div>
+  </div>
+
+css
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content:"";
+  display:block;
+  clear:both;
+}
+
+header {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header .headline{
+  font-size: 32px;
+}
+.nav-list {
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 auto;
+  border-bottom: 1px solid #848282;
+  border-top: 1px solid #848282;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.main{
+  width: 800px;
+  margin: 50px auto;
+}
+
+.box1{
+  width: 200px;
+  height: 200px;
+  background-color: #E6FFE9;
+  float: left;
+}
+
+.box2{
+  width: 200px;
+  height: 200px;
+  background-color: #CBFFD3;
+  float: left;
+}
+
+.box3{
+  width: 200px;
+  height: 200px;
+  background-color: #AEFFBD;
+  float: left;
+}
+
+.box4{
+  width: 200px;
+  height: 200px;
+  background-color: #93FFAB;
+  float: left;
+}
+
+.box5{
+  width: 200px;
+  height: 200px;
+  background-color: #F3FFD8;
+  float: left;
+}
+
+.box6{
+  width: 200px;
+  height: 200px;
+  background-color: #EDFFBE;
+  float: left;
+}
+
+.box7{
+  width: 200px;
+  height: 200px;
+  background-color: #E9FFA5;
+  float: left;
+}
+
+.box8{
+  width: 200px;
+  height: 200px;
+  background-color: #E4FF8D;
+  float: left;
+}
+
+.box9{
+  width: 200px;
+  height: 200px;
+  background-color: #D9E5FF;
+  float: left;
+}
+
+.box10{
+  width: 200px;
+  height: 200px;
+  background-color: #BAD3FF;
+  float: left;
+}
+
+.box11{
+  width: 200px;
+  height: 200px;
+  background-color: #A4C6FF;
+  float: left;
+}
+
+.box12{
+  width: 200px;
+  height: 200px;
+  background-color: #8EB8FF;
+  float: left;
+}
